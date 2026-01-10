@@ -8,5 +8,5 @@ pic2 = np.array(Image.open("lemur_ed66878c338e662d3473f0d98eedbd0d.png").convert
 
 #XOR between the two rgb arrays
 flag = np.bitwise_xor(pic1, pic2)
-#king julian is now even clear
+#king julien is now even clear
 Image.fromarray(flag).show()
