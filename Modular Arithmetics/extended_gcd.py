@@ -4,7 +4,6 @@ def computeGCD(x, y):
        x, y = y, x % y
   
    return x
-# return (u, v) such that au + bv = gcd(a, b)
 def extended_euclidean(a, b): # a > b
     if a < b:
         return 0, 0

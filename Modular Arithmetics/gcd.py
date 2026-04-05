@@ -12,4 +12,7 @@ def gcd(a, b):
     greatest_common_divisior = max(set(a_list) & set(b_list))
     print("Greatest Common Divisor is: ", greatest_common_divisior)
 
-gcd(66528, 52920)
+b = 5
+c = 3
+
+gcd(c + 26513, b + 32321)
